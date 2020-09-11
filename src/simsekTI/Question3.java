@@ -15,6 +15,7 @@ public class Question3 {
 			numbers500.add(random.nextInt());
 		}
 		
+		// Modify this integer parameter as your nth smallest number inquiry.
 		nthSmallestNumber(numbers500, 197);
 		
 		

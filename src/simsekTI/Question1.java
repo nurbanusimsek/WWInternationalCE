@@ -30,8 +30,8 @@ public class Question1 {
 	}
 
 	public static boolean doesFileExist(String path) {
-		File sampleFile = new File(path);
-		boolean exists = sampleFile.exists();
+		File testFile = new File(path);
+		boolean exists = testFile.exists();
 		return exists;
 	}
 }
